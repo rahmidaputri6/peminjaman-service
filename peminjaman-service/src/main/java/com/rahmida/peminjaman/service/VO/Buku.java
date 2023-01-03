@@ -21,12 +21,14 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 
-public class Anggota {
+public class Buku {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long anggotaId;
-    private String nama;
-    private String alamat;
+    private Long bukuId;
+    private String judul;
+    private String pengarang;
+    private String penerbit;
+    private String tahun_terbit;
 
 }

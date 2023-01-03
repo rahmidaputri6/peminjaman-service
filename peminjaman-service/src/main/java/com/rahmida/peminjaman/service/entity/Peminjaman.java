@@ -28,9 +28,4 @@ public class Peminjaman {
     private Long bukuId;
     private String tglpinjam;
     private String tglkembali;
-
-    public String getAnggotaId() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
-    
 }

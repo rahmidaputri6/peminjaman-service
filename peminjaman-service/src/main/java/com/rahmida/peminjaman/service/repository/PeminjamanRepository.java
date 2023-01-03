@@ -14,10 +14,7 @@ import org.springframework.stereotype.Repository;
  */
 @Repository
 public interface PeminjamanRepository extends JpaRepository<Peminjaman, Long> {
+
     public Peminjaman findByPeminjamanId(Long peminjamanId);
 
-    public Peminjaman save(Peminjaman peminjaman);
-
-   
-    
 }
