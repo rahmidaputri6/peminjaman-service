@@ -13,7 +13,7 @@ import org.springframework.stereotype.Repository;
  * @author asus
  */
 @Repository
-public interface PeminjamanRepository extends JpaRepository<Peminjaman, Long> {
+    public interface PeminjamanRepository extends JpaRepository<Peminjaman, Long> {
 
     public Peminjaman findByPeminjamanId(Long peminjamanId);
 

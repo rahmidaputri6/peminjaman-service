@@ -17,11 +17,11 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 public class ResponseTemplateVO {
-    private Peminjaman peminjaman;
+      private Peminjaman peminjaman;
     private Anggota anggota;
     private Buku buku;
 
-    public void setBuku(Buku buku) {
+    public void setPeminjaman(Peminjaman peminjaman) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
@@ -29,7 +29,7 @@ public class ResponseTemplateVO {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
-    public void setPeminjaman(Peminjaman peminjaman) {
+    public void setBuku(Buku buku) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 }
